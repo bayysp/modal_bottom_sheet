@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../modal_bottom_sheet.dart';
 import 'bottom_sheet_route.dart';
 
 class MaterialWithModalsPageRoute<T> extends MaterialPageRoute<T> {
