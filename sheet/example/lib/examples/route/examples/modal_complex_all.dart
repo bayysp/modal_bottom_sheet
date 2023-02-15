@@ -7,7 +7,7 @@ class ComplexModal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ScrollController primaryScrollController =
-        PrimaryScrollController.maybeOf(context)!;
+        PrimaryScrollController.of(context)!;
     return Material(
       child: WillPopScope(
         onWillPop: () async {
